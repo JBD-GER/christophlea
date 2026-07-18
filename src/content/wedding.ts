@@ -163,7 +163,6 @@ export const wedding = {
       { id: "ankunft", src: "/media/gallery/03-ankunft.webp", alt: "Lea und ihre Begleitung betreten den Trausaal", width: 2000, height: 3000, chapter: "Die leisen Momente davor", layout: "quiet" },
       { id: "aufregung", src: "/media/gallery/04-aufregung.webp", alt: "Christoph steckt Lea während der Trauung den Ring an", width: 2000, height: 1333, chapter: "Unser Ja-Wort", layout: "wide" },
       { id: "erster-kuss", src: "/media/gallery/05-erster-kuss.webp", alt: "Lea und Christoph küssen sich im historischen Schloss", width: 2200, height: 3300, chapter: "Unser Ja-Wort", layout: "portrait" },
-      { id: "regen", src: "/media/gallery/06-regen.webp", alt: "Lea und Christoph gehen unter einem transparenten Regenschirm zum Schloss", width: 2200, height: 3300, chapter: "Unser Ja-Wort", layout: "portrait", focalPoint: "56% 66%" },
       { id: "ja-wort", src: "/media/gallery/07-ja-wort.webp", alt: "Lea betritt in Begleitung das Trauzimmer, während Christoph auf sie wartet", width: 2200, height: 1371, chapter: "Unser Ja-Wort", layout: "full", focalPoint: "48% 54%" },
       { id: "kuss", src: "/media/gallery/08-kuss.webp", alt: "Lea und Christoph küssen sich nach dem Ja-Wort", width: 2000, height: 1333, chapter: "Unser Ja-Wort", layout: "wide", focalPoint: "46% 48%" },
       { id: "unterschrift-lea", src: "/media/gallery/09-unterschrift-lea.webp", alt: "Lea unterschreibt die Heiratsurkunde", width: 2200, height: 1359, chapter: "Unser Ja-Wort", layout: "standard" },
@@ -171,6 +170,7 @@ export const wedding = {
       { id: "applaus", src: "/media/gallery/11-applaus.webp", alt: "Gäste stoßen im historischen Trauzimmer auf Lea und Christoph an", width: 2200, height: 1467, chapter: "Unser Ja-Wort", layout: "wide", focalPoint: "46% 48%" },
       { id: "ring", src: "/media/gallery/12-ring.webp", alt: "Christoph zeigt lächelnd seinen Ehering", width: 2200, height: 1602, chapter: "Unser Ja-Wort", layout: "quiet", caption: "Ein kleiner Ring. Ein großes Versprechen." },
       { id: "endlich-wir", src: "/media/gallery/13-endlich-wir.webp", alt: "Lea und Christoph gehen nach dem Ringtausch gemeinsam durch das Trauzimmer", width: 2000, height: 3000, chapter: "Endlich wir", layout: "portrait" },
+      { id: "regen", src: "/media/gallery/06-regen.webp", alt: "Lea und Christoph gehen gemeinsam unter einem transparenten Regenschirm", width: 2200, height: 3300, chapter: "Endlich wir", layout: "portrait", focalPoint: "56% 66%" },
       { id: "spalier", src: "/media/gallery/14-spalier.webp", alt: "Lea und Christoph gehen unter Seifenblasen durch ein Spalier vor dem Schlosstor", width: 2200, height: 1467, chapter: "Endlich wir", layout: "full" },
       { id: "freude", src: "/media/gallery/15-freude.webp", alt: "Lea lacht glücklich zwischen Seifenblasen", width: 2400, height: 1600, chapter: "Endlich wir", layout: "wide" },
       { id: "sommerregen", src: "/media/gallery/16-sommerregen.webp", alt: "Lea dreht sich im Sommerregen lächelnd zu Christoph um", width: 2000, height: 1333, chapter: "Endlich wir", layout: "standard" },
@@ -188,7 +188,7 @@ export const wedding = {
   witnesses: {
     eyebrow: "Von Herzen",
     title: "Für immer an unserer Seite",
-    intro: "Eva und Benni, ihr wart an diesem Tag weit mehr als unsere Trauzeugen. Ihr wart zwei der wichtigsten Menschen an unserer Seite – jeder auf seine ganz eigene Weise.",
+    intro: "Eva und Benny, ihr wart an diesem Tag weit mehr als unsere Trauzeugen. Ihr wart zwei der wichtigsten Menschen an unserer Seite – jeder auf seine ganz eigene Weise.",
     people: [
       {
         name: "Eva Rusche",
@@ -196,7 +196,7 @@ export const wedding = {
         salutation: "Liebe Eva,",
         paragraphs: [
           "danke, dass du mir immer zur Seite stehst und mich mit so viel Wärme, Ruhe und Herz begleitet hast. Du hast alles mit so viel Liebe vorbereitet und meinen Junggesellinnenabschied zu etwas ganz Besonderem gemacht.",
-          "An unserem Hochzeitstag warst du bei jedem Schritt an meiner Seite: Du hast immer wieder mein Kleid gerichtet, meinen Brautstrauß gehalten und mit all den kleinen Gesten dafür gesorgt, dass ich mich ganz auf diesen besonderen Moment einlassen konnte.",
+          "An unserem Hochzeitstag warst du bei jedem Schritt an meiner Seite: Du hast immer wieder mein Kleid gerichtet, meinen Brautstrauß gehalten und mich mit all den kleinen Gesten unterstützt.",
           "Für deine Nähe, deine Freundschaft und all die Zeit und Liebe, die du in diesen Tag gesteckt hast, bin ich dir von Herzen dankbar.",
         ],
         image: { src: "/media/witnesses/eva.webp", alt: "Porträt von Leas Trauzeugin Eva in einem schwarzen Kleid", width: 1023, height: 1537, focalPoint: "center 35%" },
@@ -204,7 +204,7 @@ export const wedding = {
       {
         name: "Benjamin Pfad",
         role: "Trauzeuge und großer Bruder von Christoph",
-        salutation: "Lieber Benni,",
+        salutation: "Lieber Benny,",
         paragraphs: [
           "danke, dass du an diesem besonderen Tag als mein großer Bruder an meiner Seite warst. Gerade in den aufgeregten und emotionalen Momenten hat es mir unglaublich viel bedeutet, dich bei mir zu wissen.",
           "Deine Rede wird mir für immer in Erinnerung bleiben – persönlich, herzlich und voller Gefühl. Du hast uns zum Lachen gebracht und zugleich tief berührt.",

@@ -150,7 +150,7 @@ await send("Runtime.evaluate", {
   expression: `document.querySelector('.witness-card--2 .witness-card__copy').scrollIntoView({ block: 'start', behavior: 'instant' })`,
 });
 await wait(400);
-await capture("wedding-benni-mobile");
+await capture("wedding-benny-mobile");
 
 await send("Runtime.evaluate", {
   expression: `document.querySelector('.audio-player__start')?.click()`,
@@ -188,6 +188,12 @@ const mobileFinalMetrics = await send("Runtime.evaluate", {
   returnByValue: true,
 });
 console.log("Mobile final/audio metrics:", mobileFinalMetrics.result.value);
+
+await send("Runtime.evaluate", {
+  expression: `document.querySelector('.site-footer').scrollIntoView({ block: 'end', behavior: 'instant' })`,
+});
+await wait(400);
+await capture("wedding-footer-mobile");
 
 console.log("Switching audit to desktop viewport.");
 await send("Emulation.setTouchEmulationEnabled", { enabled: false });

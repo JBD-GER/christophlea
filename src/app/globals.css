@@ -1444,6 +1444,7 @@ h3 {
 
 .site-footer p { margin: 0; color: var(--color-white); }
 .site-footer .monogram { margin-right: 1rem; }
+.site-footer .monogram > span:first-child { transform: translateX(0.12rem); }
 
 /* Audio player */
 .audio-player {
