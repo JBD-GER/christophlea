@@ -1390,7 +1390,10 @@ h3 {
   transform: translateY(-50%);
 }
 
-.final-message__copy .monogram { margin-bottom: 2.5rem; }
+.final-message__copy .monogram {
+  min-width: 0;
+  margin-bottom: 2.5rem;
+}
 
 .final-message__lead {
   max-width: 40rem;
@@ -1444,7 +1447,6 @@ h3 {
 
 .site-footer p { margin: 0; color: var(--color-white); }
 .site-footer .monogram { margin-right: 1rem; }
-.site-footer .monogram > span:first-child { transform: translateX(0.12rem); }
 
 /* Audio player */
 .audio-player {

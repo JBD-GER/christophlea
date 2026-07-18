@@ -34,20 +34,28 @@ const images = [
   ["IMG_7584.JPG", "gallery/22-schlosstor.webp", 2400, 87],
   ["IMG_7598.JPG", "gallery/23-ganz-nah.webp", 2200, 87],
   ["IMG_7645.JPG", "gallery/24-brautstrauss.webp", 2000, 86],
-  ["enhanced/eva-enhanced-v2.png", "witnesses/eva.webp", 1023, 96],
-  ["enhanced/benjamin-enhanced-v2.png", "witnesses/benjamin.webp", 1023, 96],
   ["IMG_7534 3.JPG", "final/final-couple.webp", 2400, 88],
+];
+
+const witnessPortraits = [
+  ["E765615F-7821-4C51-A561-476B9725BE30.PNG", "witnesses/eva.png"],
+  ["2D72A2EE-4950-4DFB-B954-91294DAED3DC.PNG", "witnesses/benny.png"],
 ];
 
 for (const [source, destination, width, quality] of images) {
   const output = path.join(publicRoot, destination);
-  const isWitnessPortrait = destination.startsWith("witnesses/");
   await mkdir(path.dirname(output), { recursive: true });
   await sharp(path.join(sourceRoot, source))
     .rotate()
     .resize({ width, withoutEnlargement: true, kernel: sharp.kernel.lanczos3 })
-    .webp({ quality, effort: isWitnessPortrait ? 6 : 5, smartSubsample: true })
+    .webp({ quality, effort: 5, smartSubsample: true })
     .toFile(output);
+}
+
+for (const [source, destination] of witnessPortraits) {
+  const output = path.join(publicRoot, destination);
+  await mkdir(path.dirname(output), { recursive: true });
+  await copyFile(path.join(sourceRoot, source), output);
 }
 
 const featuredSources = new Set(
@@ -55,6 +63,10 @@ const featuredSources = new Set(
     .filter(([, destination]) => destination.startsWith("gallery/"))
     .map(([source]) => source),
 );
+
+const castlePhotoNumbers = new Set([7278, 7284, 7285, 7287, 7293, 7296, 7302, 7317, 7323, 7324, 7327, 7348]);
+const earlyCouplePhotoNumbers = new Set([7179, 7182, 7184, 7187, 7238, 7244, 7246, 7257, 7270]);
+const earlyCeremonyPhotoNumbers = new Set([7243, 7250]);
 
 const sourcePhotos = (await readdir(sourceRoot, { withFileTypes: true }))
   .filter((entry) => entry.isFile() && /\.jpe?g$/i.test(entry.name))
@@ -102,7 +114,7 @@ for (const [index, source] of archivePhotos.entries()) {
 }
 
 const archiveChapterOrder = new Map([
-  ["", 0],
+  ["Schloss Bückeburg", 0],
   ["Unser Ja-Wort", 1],
   ["Das Versprechen", 2],
   ["Freude vor dem Schloss", 3],
@@ -134,7 +146,7 @@ await copyFile(
 console.log(`${featuredSources.size + generatedGallery.length} photos are represented in the gallery (${featuredSources.size} featured + ${generatedGallery.length} archive).`);
 console.log(`${archivePhotos.length - generatedGallery.length} archive photos from removed chapters were omitted.`);
 console.log(`${sourcePhotos.length - uniqueSourcePhotos.length} exact duplicate exports were detected and omitted.`);
-console.log(`${images.length} section assets and the audio file are ready in public/media.`);
+console.log(`${images.length + witnessPortraits.length} section assets and the audio file are ready in public/media.`);
 
 function sourceNumber(fileName) {
   const match = fileName.match(/IMG_(\d+)/i);
@@ -157,7 +169,10 @@ function slugify(value) {
 
 function chapterFor(fileName) {
   const number = sourceNumber(fileName);
-  if (number >= 7168 && number <= 7311) return "";
+  if (castlePhotoNumbers.has(number)) return "Schloss Bückeburg";
+  if (earlyCouplePhotoNumbers.has(number)) return "Endlich wir";
+  if (earlyCeremonyPhotoNumbers.has(number)) return "Unser Ja-Wort";
+  if (number >= 7168 && number <= 7311) return "Unsere Familien und Freunde";
   if (number >= 7317 && number <= 7374) return "Unser Ja-Wort";
   if (number >= 7375 && number <= 7446) return "Das Versprechen";
   if (number >= 7449 && number <= 7523) return "Freude vor dem Schloss";
@@ -168,10 +183,10 @@ function chapterFor(fileName) {
 
 function templatesFor(chapter) {
   const altTemplates = {
-  "": [
-    "Ein stiller Moment vor der Trauung im Schloss Bückeburg",
-    "Lea, Christoph und ihre Gäste vor Beginn der Trauung",
-    "Ankunft und Vorfreude am Morgen der Hochzeit",
+  "Schloss Bückeburg": [
+    "Schloss Bückeburg und seine historischen Räume am Hochzeitstag",
+    "Ein Blick auf die besondere Kulisse von Schloss Bückeburg",
+    "Architektur und Schlossgarten rund um die Trauung von Lea und Christoph",
   ],
   "Unser Ja-Wort": [
     "Lea und Christoph während ihrer standesamtlichen Trauung",

@@ -136,18 +136,26 @@ const archiveAfter = await send("Runtime.evaluate", {
   expression: `({ images: document.images.length, figures: document.querySelectorAll('figure').length, expanded: document.querySelector('.gallery-archive button').getAttribute('aria-expanded') })`,
   returnByValue: true,
 });
+await capture("wedding-archive-expanded-mobile");
+
+await send("Runtime.evaluate", {
+  expression: `([...document.querySelectorAll('.gallery-archive__grid .gallery-chapter h3')].find((heading) => heading.textContent === 'Unsere Familien und Freunde'))?.scrollIntoView({ block: 'start', behavior: 'instant' })`,
+});
+await wait(400);
+await capture("wedding-archive-family-mobile");
+
 await send("Runtime.evaluate", { expression: `document.querySelector('.gallery-archive button').click()` });
 await wait(300);
 console.log("Progressive archive metrics:", { before: archiveBefore.result.value, after: archiveAfter.result.value });
 
 await send("Runtime.evaluate", {
-  expression: `document.querySelector('.witness-card--1 .witness-card__copy').scrollIntoView({ block: 'start', behavior: 'instant' })`,
+  expression: `document.querySelector('.witness-card--1 .witness-card__image').scrollIntoView({ block: 'center', behavior: 'instant' })`,
 });
 await wait(400);
 await capture("wedding-eva-mobile");
 
 await send("Runtime.evaluate", {
-  expression: `document.querySelector('.witness-card--2 .witness-card__copy').scrollIntoView({ block: 'start', behavior: 'instant' })`,
+  expression: `document.querySelector('.witness-card--2 .witness-card__image').scrollIntoView({ block: 'center', behavior: 'instant' })`,
 });
 await wait(400);
 await capture("wedding-benny-mobile");
@@ -188,6 +196,12 @@ const mobileFinalMetrics = await send("Runtime.evaluate", {
   returnByValue: true,
 });
 console.log("Mobile final/audio metrics:", mobileFinalMetrics.result.value);
+
+await send("Runtime.evaluate", {
+  expression: `document.querySelector('.final-message__copy .monogram').scrollIntoView({ block: 'center', behavior: 'instant' })`,
+});
+await wait(400);
+await capture("wedding-final-monogram-mobile");
 
 await send("Runtime.evaluate", {
   expression: `document.querySelector('.site-footer').scrollIntoView({ block: 'end', behavior: 'instant' })`,

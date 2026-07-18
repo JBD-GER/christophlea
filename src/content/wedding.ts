@@ -199,7 +199,7 @@ export const wedding = {
           "An unserem Hochzeitstag warst du bei jedem Schritt an meiner Seite: Du hast immer wieder mein Kleid gerichtet, meinen Brautstrauß gehalten und mich mit all den kleinen Gesten unterstützt.",
           "Für deine Nähe, deine Freundschaft und all die Zeit und Liebe, die du in diesen Tag gesteckt hast, bin ich dir von Herzen dankbar.",
         ],
-        image: { src: "/media/witnesses/eva.webp", alt: "Porträt von Leas Trauzeugin Eva in einem schwarzen Kleid", width: 1023, height: 1537, focalPoint: "center 35%" },
+        image: { src: "/media/witnesses/eva.png", alt: "Porträt von Leas Trauzeugin Eva in einem schwarzen Kleid", width: 1024, height: 1535, focalPoint: "center 35%" },
       },
       {
         name: "Benjamin Pfad",
@@ -210,7 +210,7 @@ export const wedding = {
           "Deine Rede wird mir für immer in Erinnerung bleiben – persönlich, herzlich und voller Gefühl. Du hast uns zum Lachen gebracht und zugleich tief berührt.",
           "Auch für den großartigen Junggesellenabschied und die vielen Erinnerungen, die wir dabei geschaffen haben, möchte ich dir noch einmal von Herzen danken.",
         ],
-        image: { src: "/media/witnesses/benjamin.webp", alt: "Porträt von Christophs Trauzeugen und großem Bruder Benjamin im Schlossgarten", width: 1023, height: 1537, focalPoint: "center 28%" },
+        image: { src: "/media/witnesses/benny.png", alt: "Porträt von Christophs Trauzeugen und großem Bruder Benjamin im Schlossgarten", width: 1024, height: 1536, focalPoint: "center 28%" },
       },
     ],
     closing: "Dass ihr unser Ja bezeugt habt, wird uns für immer mit euch verbinden.",
