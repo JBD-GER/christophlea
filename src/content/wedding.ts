@@ -76,10 +76,8 @@ export type WeddingContent = {
   guests: {
     title: string;
     eyebrow: string;
-    galleryTitle: string;
     paragraphs: readonly string[];
     highlight: string;
-    images: readonly ImageAsset[];
   };
   final: {
     lead: string;
@@ -163,20 +161,20 @@ export const wedding = {
       { id: "schloss", src: "/media/gallery/01-schloss.webp", alt: "Schloss Bückeburg an einem stillen Sommermorgen", width: 2200, height: 3300, chapter: "Die leisen Momente davor", layout: "portrait" },
       { id: "trausaal", src: "/media/gallery/02-trausaal.webp", alt: "Der festlich vorbereitete Trausaal im Schloss Bückeburg", width: 2200, height: 3300, chapter: "Die leisen Momente davor", layout: "portrait", caption: "Noch war alles ganz still." },
       { id: "ankunft", src: "/media/gallery/03-ankunft.webp", alt: "Lea und ihre Begleitung betreten den Trausaal", width: 2000, height: 3000, chapter: "Die leisen Momente davor", layout: "quiet" },
-      { id: "aufregung", src: "/media/gallery/04-aufregung.webp", alt: "Christoph steckt Lea während der Trauung den Ring an", width: 2000, height: 1333, chapter: "Der Weg zum Schloss", layout: "wide" },
-      { id: "erster-kuss", src: "/media/gallery/05-erster-kuss.webp", alt: "Lea und Christoph küssen sich im historischen Schloss", width: 2200, height: 3300, chapter: "Der Weg zum Schloss", layout: "portrait" },
-      { id: "regen", src: "/media/gallery/06-regen.webp", alt: "Lea und Christoph gehen unter einem transparenten Regenschirm zum Schloss", width: 2200, height: 3300, chapter: "Der Weg zum Schloss", layout: "portrait", focalPoint: "56% 66%" },
-      { id: "ja-wort", src: "/media/gallery/07-ja-wort.webp", alt: "Lea betritt in Begleitung das Trauzimmer, während Christoph auf sie wartet", width: 2200, height: 1371, chapter: "Unser Ja-Wort", layout: "full", caption: "Ein Blick, in dem schon alles gesagt war.", focalPoint: "48% 54%" },
+      { id: "aufregung", src: "/media/gallery/04-aufregung.webp", alt: "Christoph steckt Lea während der Trauung den Ring an", width: 2000, height: 1333, chapter: "Unser Ja-Wort", layout: "wide" },
+      { id: "erster-kuss", src: "/media/gallery/05-erster-kuss.webp", alt: "Lea und Christoph küssen sich im historischen Schloss", width: 2200, height: 3300, chapter: "Unser Ja-Wort", layout: "portrait" },
+      { id: "regen", src: "/media/gallery/06-regen.webp", alt: "Lea und Christoph gehen unter einem transparenten Regenschirm zum Schloss", width: 2200, height: 3300, chapter: "Unser Ja-Wort", layout: "portrait", focalPoint: "56% 66%" },
+      { id: "ja-wort", src: "/media/gallery/07-ja-wort.webp", alt: "Lea betritt in Begleitung das Trauzimmer, während Christoph auf sie wartet", width: 2200, height: 1371, chapter: "Unser Ja-Wort", layout: "full", focalPoint: "48% 54%" },
       { id: "kuss", src: "/media/gallery/08-kuss.webp", alt: "Lea und Christoph küssen sich nach dem Ja-Wort", width: 2000, height: 1333, chapter: "Unser Ja-Wort", layout: "wide", focalPoint: "46% 48%" },
       { id: "unterschrift-lea", src: "/media/gallery/09-unterschrift-lea.webp", alt: "Lea unterschreibt die Heiratsurkunde", width: 2200, height: 1359, chapter: "Unser Ja-Wort", layout: "standard" },
       { id: "unterschrift-christoph", src: "/media/gallery/10-unterschrift-christoph.webp", alt: "Christoph unterschreibt die Heiratsurkunde", width: 2200, height: 1467, chapter: "Unser Ja-Wort", layout: "standard" },
       { id: "applaus", src: "/media/gallery/11-applaus.webp", alt: "Gäste stoßen im historischen Trauzimmer auf Lea und Christoph an", width: 2200, height: 1467, chapter: "Unser Ja-Wort", layout: "wide", focalPoint: "46% 48%" },
       { id: "ring", src: "/media/gallery/12-ring.webp", alt: "Christoph zeigt lächelnd seinen Ehering", width: 2200, height: 1602, chapter: "Unser Ja-Wort", layout: "quiet", caption: "Ein kleiner Ring. Ein großes Versprechen." },
-      { id: "kleid", src: "/media/gallery/13-kleid.webp", alt: "Leas Brautkleid fällt im Gegenlicht über den Schlossboden", width: 2000, height: 1333, chapter: "Endlich wir", layout: "wide" },
+      { id: "endlich-wir", src: "/media/gallery/13-endlich-wir.webp", alt: "Lea und Christoph gehen nach dem Ringtausch gemeinsam durch das Trauzimmer", width: 2000, height: 3000, chapter: "Endlich wir", layout: "portrait" },
       { id: "spalier", src: "/media/gallery/14-spalier.webp", alt: "Lea und Christoph gehen unter Seifenblasen durch ein Spalier vor dem Schlosstor", width: 2200, height: 1467, chapter: "Endlich wir", layout: "full" },
       { id: "freude", src: "/media/gallery/15-freude.webp", alt: "Lea lacht glücklich zwischen Seifenblasen", width: 2400, height: 1600, chapter: "Endlich wir", layout: "wide" },
       { id: "sommerregen", src: "/media/gallery/16-sommerregen.webp", alt: "Lea dreht sich im Sommerregen lächelnd zu Christoph um", width: 2000, height: 1333, chapter: "Endlich wir", layout: "standard" },
-      { id: "anstossen", src: "/media/gallery/17-anstossen.webp", alt: "Lea und Christoph stoßen lachend auf ihre Hochzeit an", width: 2200, height: 1467, chapter: "Zwischen Lachen und Freudentränen", layout: "wide" },
+      { id: "paar-beim-empfang", src: "/media/gallery/17-paar-beim-empfang.webp", alt: "Lea und Christoph lächeln beim Empfang gemeinsam in die Kamera", width: 2200, height: 1467, chapter: "Zwischen Lachen und Freudentränen", layout: "wide" },
       { id: "umarmung", src: "/media/gallery/18-umarmung.webp", alt: "Lea wird von einem lieben Gast herzlich umarmt", width: 2000, height: 1333, chapter: "Zwischen Lachen und Freudentränen", layout: "standard" },
       { id: "sekt", src: "/media/gallery/19-sekt.webp", alt: "Das Brautpaar feiert gemeinsam mit seinen Gästen", width: 2200, height: 1467, chapter: "Zwischen Lachen und Freudentränen", layout: "full", caption: "Aus Aufregung wurde Leichtigkeit." },
       { id: "festsaal", src: "/media/gallery/20-festsaal.webp", alt: "Lea und Christoph küssen sich im prächtigen Festsaal", width: 2000, height: 3000, chapter: "Für immer festgehalten", layout: "film" },
@@ -197,22 +195,22 @@ export const wedding = {
         role: "Trauzeugin von Lea",
         salutation: "Liebe Eva,",
         paragraphs: [
-          "danke, dass du Lea mit so viel Wärme, Ruhe und Herz begleitet hast. Du hast alles mit so viel Liebe vorbereitet und den Junggesellinnenabschied zu etwas ganz Besonderem gemacht.",
-          "An unserem Hochzeitstag warst du bei jedem Schritt an ihrer Seite: Du hast immer wieder ihr Kleid gerichtet, den Brautstrauß gehalten und mit all den kleinen Gesten dafür gesorgt, dass sie sich ganz auf diesen besonderen Moment einlassen konnte.",
-          "Für deine Nähe, deine Freundschaft und all die Zeit und Liebe, die du in diesen Tag gesteckt hast, sind wir dir von Herzen dankbar.",
+          "danke, dass du mir immer zur Seite stehst und mich mit so viel Wärme, Ruhe und Herz begleitet hast. Du hast alles mit so viel Liebe vorbereitet und meinen Junggesellinnenabschied zu etwas ganz Besonderem gemacht.",
+          "An unserem Hochzeitstag warst du bei jedem Schritt an meiner Seite: Du hast immer wieder mein Kleid gerichtet, meinen Brautstrauß gehalten und mit all den kleinen Gesten dafür gesorgt, dass ich mich ganz auf diesen besonderen Moment einlassen konnte.",
+          "Für deine Nähe, deine Freundschaft und all die Zeit und Liebe, die du in diesen Tag gesteckt hast, bin ich dir von Herzen dankbar.",
         ],
-        image: { src: "/media/witnesses/eva.webp", alt: "Porträt von Leas Trauzeugin Eva in einem schwarzen Kleid", width: 1800, height: 2698, focalPoint: "center 35%" },
+        image: { src: "/media/witnesses/eva.webp", alt: "Porträt von Leas Trauzeugin Eva in einem schwarzen Kleid", width: 1023, height: 1537, focalPoint: "center 35%" },
       },
       {
         name: "Benjamin Pfad",
         role: "Trauzeuge und großer Bruder von Christoph",
         salutation: "Lieber Benni,",
         paragraphs: [
-          "danke, dass du Christoph an diesem besonderen Tag als großer Bruder zur Seite gestanden hast. Gerade in den aufgeregten und emotionalen Momenten bedeutete es ihm unglaublich viel, dich bei sich zu wissen.",
-          "Deine Rede war einer dieser Augenblicke, die uns für immer bleiben werden: persönlich, herzlich und voller Gefühl. Du hast uns zum Lachen gebracht und zugleich tief berührt.",
-          "Auch für den großartigen Junggesellenabschied und die vielen Erinnerungen, die ihr dabei geschaffen habt, möchten wir dir noch einmal von Herzen danken.",
+          "danke, dass du an diesem besonderen Tag als mein großer Bruder an meiner Seite warst. Gerade in den aufgeregten und emotionalen Momenten hat es mir unglaublich viel bedeutet, dich bei mir zu wissen.",
+          "Deine Rede wird mir für immer in Erinnerung bleiben – persönlich, herzlich und voller Gefühl. Du hast uns zum Lachen gebracht und zugleich tief berührt.",
+          "Auch für den großartigen Junggesellenabschied und die vielen Erinnerungen, die wir dabei geschaffen haben, möchte ich dir noch einmal von Herzen danken.",
         ],
-        image: { src: "/media/witnesses/benjamin.webp", alt: "Porträt von Christophs Trauzeugen und großem Bruder Benjamin im Schlossgarten", width: 1800, height: 2704, focalPoint: "center 28%" },
+        image: { src: "/media/witnesses/benjamin.webp", alt: "Porträt von Christophs Trauzeugen und großem Bruder Benjamin im Schlossgarten", width: 1023, height: 1537, focalPoint: "center 28%" },
       },
     ],
     closing: "Dass ihr unser Ja bezeugt habt, wird uns für immer mit euch verbinden.",
@@ -221,7 +219,6 @@ export const wedding = {
   guests: {
     eyebrow: "Unsere Menschen",
     title: "An unsere Familien und Freunde",
-    galleryTitle: "So viele Wege führten an diesem Tag zu uns",
     paragraphs: [
       "Dieser Tag wäre ohne euch nur ein Datum gewesen.",
       "Viele von euch haben eine weite Anreise auf sich genommen, Urlaub eingeplant und ihren Alltag für diesen Tag umorganisiert. Allein das war für uns alles andere als selbstverständlich.",
@@ -230,23 +227,6 @@ export const wedding = {
       "Schön, dass ihr Teil unseres Anfangs wart. Und noch schöner, dass ihr Teil unseres Lebens seid.",
     ],
     highlight: "Diese Erinnerungen gehören nicht nur uns. Sie gehören auch euch.",
-    images: [
-      { src: "/media/guests/friends-01.webp", alt: "Lea und Christoph mit einer Gruppe vor dem Schloss", width: 2200, height: 1270 },
-      { src: "/media/guests/friends-02.webp", alt: "Lea und Christoph mit Familienmitgliedern im Schlossgarten", width: 2200, height: 3300 },
-      { src: "/media/guests/friends-03.webp", alt: "Das Brautpaar gemeinsam mit Gästen vor Schloss Bückeburg", width: 2200, height: 1467 },
-      { src: "/media/guests/friends-04.webp", alt: "Lea und Christoph im Kreis ihrer Familie", width: 2200, height: 1419 },
-      { src: "/media/guests/friends-05.webp", alt: "Ein Gruppenporträt mit dem Brautpaar im Trauzimmer", width: 2200, height: 3300 },
-      { src: "/media/guests/friends-06.webp", alt: "Lea und Christoph mit Menschen, die ihren Hochzeitstag begleitet haben", width: 2200, height: 1467 },
-      { src: "/media/guests/friends-07.webp", alt: "Familie und Freunde gemeinsam mit Lea und Christoph", width: 2200, height: 1467 },
-      { src: "/media/guests/friends-08.webp", alt: "Christoph mit Freunden am Hochzeitstag", width: 2200, height: 3300 },
-      { src: "/media/guests/friends-09.webp", alt: "Das Brautpaar mit Freunden im Schlossgarten", width: 2200, height: 1441 },
-      { src: "/media/guests/friends-10.webp", alt: "Lea und Christoph mit ihrer Familie vor dem Schloss", width: 2200, height: 1467 },
-      { src: "/media/guests/friends-11.webp", alt: "Christoph und seine Freunde feiern gemeinsam", width: 2200, height: 1467 },
-      { src: "/media/guests/friends-12.webp", alt: "Eine Gruppe von Freunden mit Lea und Christoph", width: 2200, height: 1467 },
-      { src: "/media/guests/friends-13.webp", alt: "Familie, Freunde und das Brautpaar vor Schloss Bückeburg", width: 2200, height: 1467 },
-      { src: "/media/guests/friends-14.webp", alt: "Lea und Christoph mit lieben Menschen aus ihrem Leben", width: 2200, height: 1467 },
-      { src: "/media/guests/friends-15.webp", alt: "Das Brautpaar inmitten seiner Familie und Freunde", width: 2200, height: 1467 },
-    ],
   },
   final: {
     lead: "Was an diesem Morgen im Schloss Bückeburg begann, tragen wir seitdem jeden Tag weiter.",

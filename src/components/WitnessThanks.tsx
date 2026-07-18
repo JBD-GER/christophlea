@@ -18,7 +18,7 @@ export function WitnessThanks() {
                   alt={person.image.alt}
                   fill
                   sizes="(max-width: 780px) 92vw, 45vw"
-                  quality={88}
+                  quality={92}
                   style={{ objectPosition: person.image.focalPoint }}
                 />
                 <span className="witness-card__number" aria-hidden="true">0{index + 1}</span>

@@ -112,7 +112,7 @@ export function WeddingGallery() {
 
       <div className="filmstrip-wrap">
         <div className="filmstrip-heading page-shell">
-          <span>Kapitel VI</span>
+          <span>Kapitel V</span>
           <h3>Für immer festgehalten</h3>
           <p>Fünf kleine Ausschnitte. Ein großes Gefühl.</p>
         </div>
@@ -189,7 +189,9 @@ export function WeddingGallery() {
               </div>
               <figcaption>
                 <span>{String(selectedIndex + 1).padStart(2, "0")} / {images.length}</span>
-                <p>{images[selectedIndex].caption ?? images[selectedIndex].chapter}</p>
+                {(images[selectedIndex].caption ?? images[selectedIndex].chapter) && (
+                  <p>{images[selectedIndex].caption ?? images[selectedIndex].chapter}</p>
+                )}
               </figcaption>
             </figure>
             <button className="lightbox__nav lightbox__nav--next" type="button" onClick={next} aria-label="Nächstes Bild">
@@ -217,7 +219,7 @@ function EditorialGallery({ items, onOpen, archive = false }: EditorialGalleryPr
   return (
     <div className={`editorial-gallery page-shell${archive ? " gallery-archive__grid" : ""}`}>
       {items.map(({ image, index }, editorialIndex) => {
-        const showChapter = image.chapter !== items[editorialIndex - 1]?.image.chapter;
+        const showChapter = Boolean(image.chapter) && image.chapter !== items[editorialIndex - 1]?.image.chapter;
         return (
           <Fragment key={`${image.id}-${index}`}>
             {showChapter && (

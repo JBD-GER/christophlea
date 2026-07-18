@@ -8,7 +8,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 025",
     "width": 2000,
     "height": 1154,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "full"
   },
   {
@@ -17,7 +17,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 026",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -26,7 +26,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 027",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -35,7 +35,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 028",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -44,7 +44,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 029",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -53,7 +53,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 030",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -62,7 +62,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 031",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -71,7 +71,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 032",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -80,7 +80,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 033",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "wide"
   },
   {
@@ -89,7 +89,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 034",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -98,7 +98,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 035",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -107,7 +107,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 036",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -116,7 +116,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 037",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "wide"
   },
   {
@@ -125,7 +125,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 038",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -134,7 +134,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 039",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -143,7 +143,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 040",
     "width": 2000,
     "height": 1304,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -152,7 +152,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 041",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "wide"
   },
   {
@@ -161,7 +161,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 042",
     "width": 2000,
     "height": 1290,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -170,7 +170,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 043",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -179,7 +179,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 044",
     "width": 2000,
     "height": 1499,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "full"
   },
   {
@@ -188,7 +188,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 045",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -197,7 +197,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 046",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -206,7 +206,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 047",
     "width": 2000,
     "height": 1409,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -215,7 +215,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 048",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -224,7 +224,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 049",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -233,7 +233,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 050",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -242,7 +242,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 051",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -251,7 +251,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 052",
     "width": 2000,
     "height": 1517,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "quiet"
   },
   {
@@ -260,7 +260,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 053",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "wide"
   },
   {
@@ -269,7 +269,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 054",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -278,7 +278,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 055",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -287,7 +287,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 056",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -296,7 +296,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 057",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "wide"
   },
   {
@@ -305,7 +305,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 058",
     "width": 2000,
     "height": 1436,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -314,7 +314,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 059",
     "width": 1572,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -323,7 +323,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 060",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -332,7 +332,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 061",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -341,7 +341,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 062",
     "width": 2000,
     "height": 1262,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -350,7 +350,7 @@ export const allGalleryImages = [
     "alt": "Ein stiller Moment vor der Trauung im Schloss Bückeburg – Aufnahme 063",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "full"
   },
   {
@@ -359,7 +359,7 @@ export const allGalleryImages = [
     "alt": "Lea, Christoph und ihre Gäste vor Beginn der Trauung – Aufnahme 064",
     "width": 2000,
     "height": 1333,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "standard"
   },
   {
@@ -368,7 +368,7 @@ export const allGalleryImages = [
     "alt": "Ankunft und Vorfreude am Morgen der Hochzeit – Aufnahme 065",
     "width": 1333,
     "height": 2000,
-    "chapter": "Die leisen Momente davor",
+    "chapter": "",
     "layout": "portrait"
   },
   {
@@ -921,17 +921,17 @@ export const allGalleryImages = [
     "layout": "standard"
   },
   {
-    "id": "archive-127-img-7432",
-    "src": "/media/archive/127-img-7432.webp",
+    "id": "archive-127-img-7433",
+    "src": "/media/archive/127-img-7433.webp",
     "alt": "Lea und Christoph nach ihrem Ja-Wort im Trauzimmer – Aufnahme 127",
-    "width": 1333,
-    "height": 2000,
+    "width": 2000,
+    "height": 1333,
     "chapter": "Das Versprechen",
-    "layout": "portrait"
+    "layout": "standard"
   },
   {
-    "id": "archive-128-img-7433",
-    "src": "/media/archive/128-img-7433.webp",
+    "id": "archive-128-img-7434",
+    "src": "/media/archive/128-img-7434.webp",
     "alt": "Ein festgehaltener Moment voller Freude im Schloss – Aufnahme 128",
     "width": 2000,
     "height": 1333,
@@ -939,8 +939,8 @@ export const allGalleryImages = [
     "layout": "standard"
   },
   {
-    "id": "archive-129-img-7434",
-    "src": "/media/archive/129-img-7434.webp",
+    "id": "archive-129-img-7436",
+    "src": "/media/archive/129-img-7436.webp",
     "alt": "Ein emotionaler Augenblick während der Trauung von Lea und Christoph – Aufnahme 129",
     "width": 2000,
     "height": 1333,
@@ -948,22 +948,22 @@ export const allGalleryImages = [
     "layout": "wide"
   },
   {
-    "id": "archive-130-img-7436",
-    "src": "/media/archive/130-img-7436.webp",
+    "id": "archive-130-img-7437",
+    "src": "/media/archive/130-img-7437.webp",
     "alt": "Lea und Christoph nach ihrem Ja-Wort im Trauzimmer – Aufnahme 130",
-    "width": 2000,
-    "height": 1333,
-    "chapter": "Das Versprechen",
-    "layout": "standard"
-  },
-  {
-    "id": "archive-131-img-7437",
-    "src": "/media/archive/131-img-7437.webp",
-    "alt": "Ein festgehaltener Moment voller Freude im Schloss – Aufnahme 131",
     "width": 1333,
     "height": 2000,
     "chapter": "Das Versprechen",
     "layout": "portrait"
+  },
+  {
+    "id": "archive-131-img-7439",
+    "src": "/media/archive/131-img-7439.webp",
+    "alt": "Ein festgehaltener Moment voller Freude im Schloss – Aufnahme 131",
+    "width": 2000,
+    "height": 1333,
+    "chapter": "Das Versprechen",
+    "layout": "standard"
   },
   {
     "id": "archive-132-img-7440",
@@ -1164,8 +1164,8 @@ export const allGalleryImages = [
     "layout": "wide"
   },
   {
-    "id": "archive-154-img-7485",
-    "src": "/media/archive/154-img-7485.webp",
+    "id": "archive-154-img-7484",
+    "src": "/media/archive/154-img-7484.webp",
     "alt": "Glückwünsche, Umarmungen und Lachen nach der Trauung – Aufnahme 154",
     "width": 2000,
     "height": 1333,
@@ -1173,8 +1173,8 @@ export const allGalleryImages = [
     "layout": "standard"
   },
   {
-    "id": "archive-155-img-7489",
-    "src": "/media/archive/155-img-7489.webp",
+    "id": "archive-155-img-7485",
+    "src": "/media/archive/155-img-7485.webp",
     "alt": "Familie und Freunde teilen die Freude des Brautpaares – Aufnahme 155",
     "width": 2000,
     "height": 1333,
@@ -1182,8 +1182,8 @@ export const allGalleryImages = [
     "layout": "standard"
   },
   {
-    "id": "archive-156-img-7490",
-    "src": "/media/archive/156-img-7490.webp",
+    "id": "archive-156-img-7489",
+    "src": "/media/archive/156-img-7489.webp",
     "alt": "Lea und Christoph feiern vor dem Schloss mit ihren Gästen – Aufnahme 156",
     "width": 2000,
     "height": 1333,
@@ -1191,26 +1191,26 @@ export const allGalleryImages = [
     "layout": "standard"
   },
   {
-    "id": "archive-157-img-7493",
-    "src": "/media/archive/157-img-7493.webp",
+    "id": "archive-157-img-7490",
+    "src": "/media/archive/157-img-7490.webp",
     "alt": "Glückwünsche, Umarmungen und Lachen nach der Trauung – Aufnahme 157",
-    "width": 1333,
-    "height": 2000,
-    "chapter": "Freude vor dem Schloss",
-    "layout": "portrait"
-  },
-  {
-    "id": "archive-158-img-7494",
-    "src": "/media/archive/158-img-7494.webp",
-    "alt": "Familie und Freunde teilen die Freude des Brautpaares – Aufnahme 158",
     "width": 2000,
     "height": 1333,
+    "chapter": "Freude vor dem Schloss",
+    "layout": "wide"
+  },
+  {
+    "id": "archive-158-img-7493",
+    "src": "/media/archive/158-img-7493.webp",
+    "alt": "Familie und Freunde teilen die Freude des Brautpaares – Aufnahme 158",
+    "width": 1333,
+    "height": 2000,
     "chapter": "Freude vor dem Schloss",
     "layout": "full"
   },
   {
-    "id": "archive-159-img-7495",
-    "src": "/media/archive/159-img-7495.webp",
+    "id": "archive-159-img-7494",
+    "src": "/media/archive/159-img-7494.webp",
     "alt": "Lea und Christoph feiern vor dem Schloss mit ihren Gästen – Aufnahme 159",
     "width": 2000,
     "height": 1333,
@@ -1218,8 +1218,8 @@ export const allGalleryImages = [
     "layout": "standard"
   },
   {
-    "id": "archive-160-img-7496",
-    "src": "/media/archive/160-img-7496.webp",
+    "id": "archive-160-img-7495",
+    "src": "/media/archive/160-img-7495.webp",
     "alt": "Glückwünsche, Umarmungen und Lachen nach der Trauung – Aufnahme 160",
     "width": 2000,
     "height": 1333,
@@ -1227,8 +1227,8 @@ export const allGalleryImages = [
     "layout": "quiet"
   },
   {
-    "id": "archive-161-img-7498",
-    "src": "/media/archive/161-img-7498.webp",
+    "id": "archive-161-img-7496",
+    "src": "/media/archive/161-img-7496.webp",
     "alt": "Familie und Freunde teilen die Freude des Brautpaares – Aufnahme 161",
     "width": 2000,
     "height": 1333,
@@ -1236,8 +1236,8 @@ export const allGalleryImages = [
     "layout": "wide"
   },
   {
-    "id": "archive-162-img-7499",
-    "src": "/media/archive/162-img-7499.webp",
+    "id": "archive-162-img-7498",
+    "src": "/media/archive/162-img-7498.webp",
     "alt": "Lea und Christoph feiern vor dem Schloss mit ihren Gästen – Aufnahme 162",
     "width": 2000,
     "height": 1333,
@@ -1245,8 +1245,8 @@ export const allGalleryImages = [
     "layout": "standard"
   },
   {
-    "id": "archive-163-img-7500",
-    "src": "/media/archive/163-img-7500.webp",
+    "id": "archive-163-img-7499",
+    "src": "/media/archive/163-img-7499.webp",
     "alt": "Glückwünsche, Umarmungen und Lachen nach der Trauung – Aufnahme 163",
     "width": 2000,
     "height": 1333,
@@ -1702,59 +1702,5 @@ export const allGalleryImages = [
     "height": 1333,
     "chapter": "Unsere Familien und Freunde",
     "layout": "wide"
-  },
-  {
-    "id": "archive-214-img-0300-3",
-    "src": "/media/archive/214-img-0300-3.webp",
-    "alt": "Lea und Christoph an ihrem Hochzeitstag – Aufnahme 214",
-    "width": 2000,
-    "height": 1333,
-    "chapter": "Für immer festgehalten",
-    "layout": "quiet"
-  },
-  {
-    "id": "archive-215-img-0314-3",
-    "src": "/media/archive/215-img-0314-3.webp",
-    "alt": "Eine bleibende Erinnerung an den 18. Juli 2025 – Aufnahme 215",
-    "width": 1333,
-    "height": 2000,
-    "chapter": "Für immer festgehalten",
-    "layout": "full"
-  },
-  {
-    "id": "archive-216-whatsapp-image-2026-07-17-at-18-53-51-1",
-    "src": "/media/archive/216-whatsapp-image-2026-07-17-at-18-53-51-1.webp",
-    "alt": "Ein zeitlos festgehaltener Moment der Hochzeit von Lea und Christoph – Aufnahme 216",
-    "width": 1024,
-    "height": 1536,
-    "chapter": "Für immer festgehalten",
-    "layout": "portrait"
-  },
-  {
-    "id": "archive-217-whatsapp-image-2026-07-17-at-18-53-51",
-    "src": "/media/archive/217-whatsapp-image-2026-07-17-at-18-53-51.webp",
-    "alt": "Lea und Christoph an ihrem Hochzeitstag – Aufnahme 217",
-    "width": 1024,
-    "height": 1535,
-    "chapter": "Für immer festgehalten",
-    "layout": "portrait"
-  },
-  {
-    "id": "archive-218-img-9976-3",
-    "src": "/media/archive/218-img-9976-3.webp",
-    "alt": "Ein kleines Detail, das diesen Hochzeitstag besonders machte – Aufnahme 218",
-    "width": 2000,
-    "height": 1333,
-    "chapter": "Die kleinen Details",
-    "layout": "standard"
-  },
-  {
-    "id": "archive-219-img-9981-3",
-    "src": "/media/archive/219-img-9981-3.webp",
-    "alt": "Ein liebevoll vorbereitetes Detail des Hochzeitstages – Aufnahme 219",
-    "width": 2000,
-    "height": 1333,
-    "chapter": "Die kleinen Details",
-    "layout": "standard"
   }
 ] as const satisfies readonly GalleryImage[];

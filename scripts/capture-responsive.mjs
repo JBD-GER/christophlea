@@ -109,6 +109,18 @@ await wait(500);
 await capture("wedding-gallery-mobile");
 
 await send("Runtime.evaluate", {
+  expression: `document.querySelector('img[alt="Lea und Christoph gehen nach dem Ringtausch gemeinsam durch das Trauzimmer"]')?.closest('figure')?.scrollIntoView({ block: 'center', behavior: 'instant' })`,
+});
+await wait(500);
+await capture("wedding-endlich-wir-mobile");
+
+await send("Runtime.evaluate", {
+  expression: `document.querySelector('img[alt="Lea und Christoph lächeln beim Empfang gemeinsam in die Kamera"]')?.closest('figure')?.scrollIntoView({ block: 'center', behavior: 'instant' })`,
+});
+await wait(500);
+await capture("wedding-lachen-mobile");
+
+await send("Runtime.evaluate", {
   expression: `document.querySelector('.gallery-archive').scrollIntoView({ block: 'start', behavior: 'instant' })`,
 });
 await wait(400);
@@ -150,12 +162,6 @@ await send("Runtime.evaluate", {
 });
 await wait(1500);
 await capture("wedding-guests-mobile");
-
-await send("Runtime.evaluate", {
-  expression: `document.querySelector('.guest-gallery').scrollIntoView({ block: 'start', behavior: 'instant' })`,
-});
-await wait(1500);
-await capture("wedding-guest-gallery-mobile");
 
 await send("Runtime.evaluate", {
   expression: `(() => {
@@ -208,10 +214,10 @@ console.log("Desktop layout metrics:", desktopLayoutMetrics.result.value);
 await capture("wedding-desktop-cdp");
 
 await send("Runtime.evaluate", {
-  expression: `document.querySelector('.guest-gallery').scrollIntoView({ block: 'start', behavior: 'instant' })`,
+  expression: `document.querySelector('#danke').scrollIntoView({ block: 'start', behavior: 'instant' })`,
 });
 await wait(1500);
-await capture("wedding-guest-gallery-desktop");
+await capture("wedding-guests-desktop");
 
 await send("Runtime.evaluate", {
   expression: `document.querySelector('#unser-fuer-immer').scrollIntoView({ block: 'start', behavior: 'instant' })`,
